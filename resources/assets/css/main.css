@@ -1,0 +1,329 @@
+body{
+	overflow-x: hidden;
+	min-width: 1280px;
+}
+.left-side{
+	background-color: #232F37;
+	height : 690px;
+	position: fixed;
+
+	
+}
+
+#left-nav{
+	position: relative;
+	top : 250px;
+}
+
+.right-side{
+	margin-left:220px;
+	height : auto;
+	background-color: #F5F7F8;
+
+
+}
+
+.logo{
+	height : 100px;
+	margin-top : 10px;
+	margin-left : 20px;
+}
+
+.logo img{
+	height : 60px;
+	width : 40px;
+	float: left;
+}
+
+#syatis{
+	color : white;
+	font-size: 1.9em;
+	font-family: sans-serif;
+	margin-top: 10px;
+	margin-left: 50px;
+}
+
+/* for the right side */
+.top-bar{
+	
+	height: 60px;
+	background-color: white;
+	margin-top: 10px;
+}
+
+.search-box{
+	
+	margin-top: 10px;
+	height : 45px;
+	width : 60px;
+}
+
+#seller-logo-container{
+	width : 160px;
+	height : 60px;
+	
+	float : left;
+}
+
+#seller-logo-container img{
+	width : 150px;
+	height : 50px;
+	margin-top: 5px;
+}
+
+.icon-container{
+	width : 70px;
+	height : 60px;
+	
+	float: left;
+	position: relative;
+	left : 72%;
+	display :;
+}
+
+.top-bar-icon{
+	font-size: 1.2em;
+
+
+}
+
+
+
+.badge-container{
+	width : 30px;
+	height : 30px;
+	
+	position: absolute;
+	top : 15px;
+	left : 35px;
+}
+
+.number{
+	width : 25px;
+	height : 20px;
+	background-color: #DE7272;
+	margin-top: 5px;
+	border-radius: 60px;
+	color : white;
+	font-size: 0.75em;
+	text-align: center;
+}
+
+
+
+.top-icon-position{
+	margin-left: 10px;
+	margin-top : 20px;
+	color : #179F9B;
+
+}
+.white-container{
+	
+	background-color: white;
+	margin-top : 10px;
+	border-radius: 5px;
+	
+
+}
+.large{
+	height: 350px;
+}
+
+.small{
+	height : 150px;
+}
+
+.blue-strip{
+	background-color: #DE7272;
+	height: 50px;
+
+}
+
+.title-text{
+	color : white;
+	text-align: center;
+	margin-top : 10px;
+	font-size: 1.2em;
+	display: inline-block;
+}
+
+.title-text-small{
+	color : #179F9B;
+	text-align: center;
+	margin-top: 20px;
+	font-size: 1.5em;
+	
+
+}
+
+.text-container{
+	height : 50px;
+	
+}
+
+.subtitle{
+	text-align: center;
+}
+
+.visitors_count{
+	font-size: 2.5em;
+	text-align: center;
+	margin-top: 10px;
+	color: #FCB632;
+}
+
+.listing{
+	margin-top: 30px;
+	margin-left : 5px;
+	
+
+}
+
+.listing td{
+	width : 160px;
+	height : 50px;
+	padding-left: 10px;
+
+	}
+
+.list-container:hover{
+	background-color: #EEEEEE;
+	
+	
+	
+}
+
+.name{
+		color : #05BCFC;
+}
+
+.butn{
+	
+	border: none;
+	height : 30px;
+	color : white;
+	border-radius: 5px;
+
+}
+
+.butn-blue{
+	background-color: #05BCFC;	
+}
+
+.listing img{
+	width : 50px;
+	height: 50px;
+	border : 1px solid #179F9B;
+	margin-top: 5px;
+}
+
+.title-container{
+	margin-top: 15px;
+	height: 50px;
+}
+
+.most-viewed{
+	font-size: 10px;
+}
+
+.info-button{
+	float: right;
+	margin-top: 10px;
+	cursor: pointer;
+	font-size: 1.5em;
+	color: white;
+}
+
+.list-container{
+	
+	margin-top: 5px;
+	float: left;
+	height: 50px;
+	width: 100%;
+	padding-left: 5px;
+	padding-right: 5px;
+	cursor: pointer;
+
+}
+
+.list-container ul{
+	list-style: none;
+
+	
+}
+.list-container li{
+	background-color: red;
+	
+}
+.list-container img{
+	width : 40px;
+	height: 40px;
+	background-color: white;
+	float: left;
+	margin-top: 5px;
+
+}
+
+.username{
+	
+	margin-top : 5px;
+	margin-left : 5px;
+	display: inline;
+}
+
+.timestamp{
+	font-size: 9px;
+	margin-left : 45px;
+	margin-top: 1px;
+	
+}
+
+.comment-notfication{
+margin-top : 3px;	
+margin-left : 45px;	
+font-size: 11px;
+
+}
+
+.glyph-right{
+	float: right;
+	margin-right: 5px;
+	margin-top: 10px;
+	color: #179F9B;
+}
+
+.nav-side{
+	color : white;
+	width: 187px;
+	height: 40px;     
+	margin-top: 10px; 
+	margin-left: 20px;  
+	margin-right: 10px;
+	padding-left: 10px;
+	padding-top: 10px;
+	cursor: pointer;
+	font-size: 12px;
+	
+}
+
+.nav-side p{
+
+	display : inline; 
+	margin-left : 10px
+	
+}
+
+.nav-side a{
+	text-decoration: none;
+}
+
+.nav-side:hover{
+	background-color: #DE7272;
+}
+
+
+
+
+
+
+
